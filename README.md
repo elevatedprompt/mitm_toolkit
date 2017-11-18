@@ -8,7 +8,7 @@ This project you are assumes that you are using a system with 2 or more network 
  - python Server.py
 
 ## MITM Node Setup Instructions
- - apt install bridge-utils build-essential python-dev libnetfilter-queue-dev
+ - apt install python-pip bridge-utils build-essential python-dev libnetfilter-queue-dev
  - pip install NetfilterQueue websocket-client
  - pip install git+https://github.com/dpallot/simple-websocket-server.git
  - Setup bridge networking https://wiki.debian.org/BridgeNetworkConnections
@@ -23,5 +23,3 @@ iface br0 inet dhcp
 ```
 
  - sudo python Bot.py
-
- 
