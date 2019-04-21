@@ -50,3 +50,5 @@ iface br0 inet dhcp
  WS_SERVER = "ws://127.0.0.1:8080/"
  ```
  - sudo python Bot.py
+
+
