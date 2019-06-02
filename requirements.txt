@@ -1,7 +1,6 @@
-SimpleWebSocketServer==0.1.0
-scapy==2.3.3
-websocket==0.2.1
-websocket-client==0.44.0
-flask
-setuptools
-netfilterqueue
+NetfilterQueue==0.8.1
+pkg-resources==0.0.0
+scapy==2.4.2
+SimpleWebSocketServer==0.1.1
+six==1.12.0
+websocket-client==0.56.0
